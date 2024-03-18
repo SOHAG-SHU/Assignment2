@@ -16,7 +16,6 @@ public class FileNameAndLocation {
         } else {
             System.out.println("The complete file name is: /" + path + "/" + fileName + "." + extension);
         }
-
         scanner.close();
     }
 }
