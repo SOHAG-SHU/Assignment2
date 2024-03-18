@@ -1,8 +1,7 @@
 public class Balloon{
     private double volume;
     public Balloon(){
-        volume = 0;
-    }
+        volume = 0;}
     public void addAir(double amount){
         volume += amount;
     }
