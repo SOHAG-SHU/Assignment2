@@ -9,6 +9,7 @@ public class DigitSeparation{
         for (int i=0; i<numberString.length(); i++) {
             System.out.println(numberString.charAt(i));
         }
+
         scanner.close();
     }
 }
