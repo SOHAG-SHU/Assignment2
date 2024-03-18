@@ -5,7 +5,6 @@ public class EasterSunday{
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a year: ");
         int year = scanner.nextInt();
-
         int a = year % 19;
         int b = year / 100;
         int c = year % 100;
