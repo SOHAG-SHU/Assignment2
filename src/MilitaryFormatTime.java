@@ -18,6 +18,7 @@ public class MilitaryFormatTime{
         int differenceHours = differenceInMinutes / 60;
         int differenceMinutes = differenceInMinutes % 60;
         System.out.println(differenceHours + " hours " + differenceMinutes + " minutes");
+
         scanner.close();
     }
 }
