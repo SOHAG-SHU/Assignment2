@@ -14,7 +14,6 @@ public class TransformNumberToMonthName{
             String monthName = months[number - 1];
             System.out.println("The corresponding month name is:" + monthName);
         }
-
         scanner.close();
     }
 }
