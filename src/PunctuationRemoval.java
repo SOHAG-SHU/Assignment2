@@ -4,7 +4,7 @@ public class PunctuationRemoval{
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number between 1,000 and 999,999 (with a comma): ");
         String input = scanner.nextLine();
-       // String numberWithoutComma = input.replace(",", "");
+
       int len = input.length();
       String firstSome = input.substring(0,len-4);
       String lastThree = input.substring(len-3);
